@@ -1,1 +1,4 @@
 Here simple python program is given in feature-1 branch
+
+The program is about 
+Python program to add two numbers, Maximum of two numbers in Python & Python Program for factorial of a number
