@@ -1,0 +1,33 @@
+Example:
+
+Input : Principle (amount): 1200
+        Time: 2
+        Rate: 5.4
+Output : Compound Interest = 1333.099243
+
+Python3
+filter_none
+
+edit
+
+play_arrow
+
+brightness_4
+# Python3 program to find compound 
+# interest for given values. 
+  
+def compound_interest(principle, rate, time): 
+  
+    # Calculates compound interest  
+    Amount = principle * (pow((1 + rate / 100), time)) 
+    CI = Amount - principle 
+    print("Compound interest is", CI) 
+  
+# Driver Code  
+compound_interest(10000, 10.25, 5) 
+  
+# This code is contributed by Abhishek Agrawal. 
+
+Output:
+
+Compound interest is 6288.946267774416
